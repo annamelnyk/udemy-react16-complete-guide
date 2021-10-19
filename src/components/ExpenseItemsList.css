@@ -1,7 +1,0 @@
-.expense-items-list {
-  display: flex;
-  flex-direction: column;
-  border-radius: 12px;
-  background-color: #2e2e2e;
-  padding: 25px 15px;
-}

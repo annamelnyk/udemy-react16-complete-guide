@@ -42,7 +42,7 @@ function App() {
   }
 
   return (
-    <div>
+    <>
       <AddUser onAddUser={addUserHandler} />
       {users.length && <UsersList users={users} />}
       {showErrorModal.show && 
@@ -52,7 +52,7 @@ function App() {
           onCloseModal={closeModalHandler}
         />
       }
-    </div>
+    </>
   );
 }
 
